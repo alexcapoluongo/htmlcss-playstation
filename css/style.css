@@ -12,6 +12,10 @@ header {
 
 /* commons */
 
+.ms-container{
+    width:95%;
+    margin:0 auto;
+}
 /* buttons */
 
 .btn_web {
@@ -67,6 +71,18 @@ header {
 .banner h1, .banner p {
     color:white
 }
+
 .logo-returnal img {
     width:50%;
+}
+
+/* greed-1 */
+
+.greed-1-item {
+    padding-bottom:2em;
+}
+
+.greed-1-item img {
+    border-radius:1em;
+    width:100%;
 }
