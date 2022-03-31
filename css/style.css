@@ -35,6 +35,11 @@ header {
     background-color:#2D64E6;
 }
 
+.btn_gray{
+    background-color:#D9DADC;
+    color:#386BE5;
+}
+
 /* header */
 
 .logo-sony {
@@ -158,6 +163,22 @@ header {
 .img-explore img{
     width:100%;
 }
+
+/* playstation plus */
+
+.play-plus {
+    background-color:#BEBCBB;
+}
+
+
+.play-plus-content img {
+    width:100%;
+}
+
+.play-plus-left img{
+    width:100%;
+}
+
 
 
 /* mediaquery */
