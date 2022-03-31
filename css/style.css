@@ -12,7 +12,7 @@ header {
 
 /* commons */
 
-.ms-container{
+.ms-container {
     width:95%;
     margin:0 auto;
 }
@@ -29,6 +29,10 @@ header {
 
 .btn_red {
     background-color: #CC3C09;
+}
+
+.btn_blue {
+    background-color:#2D64E6;
 }
 
 /* header */
@@ -85,4 +89,48 @@ header {
 .greed-1-item img {
     border-radius:1em;
     width:100%;
+}
+
+/* playstation introduction */
+
+.intro-title-wrap h5 {
+    color:#167ED2;
+    font-size:1em;
+}
+
+.intro-title-wrap p {
+    color:#737373;
+}
+
+.console-intro .intro-title-wrap {
+    margin-top:100px;
+}
+
+/* console-item */
+
+.img-console img {
+    width:100%;
+}
+
+.img-console-item img {
+    width:100%;
+    opacity:.5;
+}
+
+.img-console-item img:hover {
+    opacity:1;
+}
+
+#play_thumb {
+    border-bottom:2px solid blue;
+    opacity:1;
+}
+
+/* mediaquery */
+
+@media screen and (min-width: 768px) {
+    .console-item-row{
+        display: flex;
+        justify-content: space-around;
+    }
 }
