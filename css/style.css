@@ -1,11 +1,29 @@
 header{
     height:50px;
+    width:100%;
     background-color: black;
     display:flex;
-    justify-content:flex-end;
+    justify-content: end;
+    position:fixed;
+    z-index:999;
+    top:0;
+    left:0;
 }
 
+/* commons */
 
+/* buttons */
+
+.btn_web{
+    color:white;
+    border-radius: 2em;
+}
+
+.btn_dark{
+    background-color: #363636;
+}
+
+/* header */
 
 .logo-sony{
     width:100px;
@@ -16,4 +34,12 @@ header{
 .logo-sony img{
     width:100%;
     padding:.5em;
+}
+
+/* navbar */
+
+.nav_menu{
+    padding-top: 3rem;
+    position:fixed;
+    width:100%;
 }
