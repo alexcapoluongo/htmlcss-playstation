@@ -102,6 +102,10 @@ header {
     color:#737373;
 }
 
+.intro-title-wrap h1{
+    margin-bottom:1em;
+}
+
 .console-intro .intro-title-wrap {
     margin-top:100px;
 }
@@ -147,6 +151,12 @@ header {
 .img-new-entry p{
     margin-bottom:3em;
     font-size:1.5em;
+}
+
+/* explore */
+
+.img-explore img{
+    width:100%;
 }
 
 
