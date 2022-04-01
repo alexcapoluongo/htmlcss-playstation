@@ -82,7 +82,7 @@ header {
 }
 
 .logo-returnal img {
-    width:50%;
+    width:40%;
 }
 
 /* greed-1 */
@@ -166,10 +166,14 @@ header {
 
 /* playstation plus */
 
+
 .play-plus {
     background-color:#BEBCBB;
 }
 
+.play-plus-content {
+    max-height:300px;
+}
 
 .play-plus-content img {
     width:100%;
