@@ -72,7 +72,8 @@ header {
     background-size: cover;
     background-position: center;
     width:100%;
-    height:500px;
+    /* height:500px; */
+    padding-top:200px;
     margin-top: 124px;
     display: flex;
     align-items: flex-end;
@@ -172,18 +173,20 @@ header {
     background-color:#BEBCBB;
 }
 
-.play-plus-content {
-    max-height:300px;
-}
 
 .play-plus-content img {
+    width:80%;
+}
+
+.play-plus-left img {
     width:100%;
 }
 
-.play-plus-left img{
+/* discount */
+
+.img-discount img {
     width:100%;
 }
-
 
 
 /* mediaquery */
