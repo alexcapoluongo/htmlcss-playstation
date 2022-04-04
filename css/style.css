@@ -127,6 +127,12 @@ header {
 
 .greed-1-item {
     padding-bottom:2em;
+    margin-top:3em;
+    transition: 1s;
+}
+
+.greed-1-item:hover{
+    margin-top:1em;
 }
 
 .greed-1-item img {
