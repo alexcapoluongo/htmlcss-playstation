@@ -312,3 +312,10 @@ footer ul li a{
         justify-content: space-around;
     }
 }
+
+@media screen and (max-width: 1024px) {
+    .right_menu{
+        margin:0 auto !important;
+        text-align: center;
+    }
+}
