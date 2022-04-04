@@ -90,6 +90,14 @@ header {
 /* MAIN */
 
 /* navbar */
+.navbar {
+    position:relative;
+    padding-bottom:0;
+}
+
+.dropdown {
+    position:unset;
+}
 
 .nav_menu {
     padding-top: 3rem;
@@ -98,6 +106,25 @@ header {
     top:0;
     left:0;
     z-index:999;
+}
+
+.dropdown-menu {
+    width:100%;
+    border: none;
+}
+
+.dropdown-menu ul{
+    list-style:none;
+}
+
+.first_menu {
+    display:flex;
+    justify-content: center;
+}
+
+.second_menu {
+    display:flex;
+    justify-content: center;
 }
 
 /* banner */
@@ -123,19 +150,19 @@ header {
     width:40%;
 }
 
-/* greed-1 */
+/* grid-1 */
 
-.greed-1-item {
+.grid-1-item {
     padding-bottom:2em;
     margin-top:3em;
     transition: 1s;
 }
 
-.greed-1-item:hover{
+.grid-1-item:hover {
     margin-top:1em;
 }
 
-.greed-1-item img {
+.grid-1-item img {
     border-radius:1em;
     width:100%;
 }
